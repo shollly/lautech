@@ -1,0 +1,215 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+header {
+    background: #f9fbfc;
+    display: flex;
+    color: black;
+}
+
+.drop img {
+    width: 35px;
+    margin: 11px 0 0 15px;
+}
+
+
+/*Image Dropdown*/
+.nav {
+    position: relative;
+    display: inline-block;
+}
+
+.drop-content {
+    position: absolute;
+    width: 235px;
+    box-shadow: 0 18px 36px rgba(0 0 0 0.30);
+    height: 0px;
+    transition: 1s;
+    overflow: hidden;
+    margin-top: 8px;
+    background: #363a3d;
+}
+
+.nav:hover .drop-content {
+    height: 900px;
+}
+
+.drop-content a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+a:hover, .current {
+    background: #45494b;
+    height: 14px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+/*Course Registration Dropdown*/
+.nav2 {
+    position: relative;
+    display: inline-block;
+}
+
+.drop2-content {
+    position: sticky;
+    width: 235px;
+    height: 0px;
+    transition: 1s;
+    overflow: hidden;
+    background: #363a3d;
+}
+
+.nav2:hover .drop2-content {
+    height: fit-content;
+}
+
+.drop2-content a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    margin-left: 30px;
+    margin-top: -8px;
+}
+
+.drop2content a:hover {
+    background: #45494b;
+    height: 14px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.line {
+    height: 1.5px;
+    background: rgb(44, 42, 42);
+    border: none;
+    transform: rotate(90deg);
+    position: relative; right: 100px;
+}
+
+/*Payment Dropdown*/
+.nav3 {
+    position: relative;
+    display: inline-block;
+}
+
+.drop3-content {
+    position: sticky;
+    width: 235px;
+    height: 0px;
+    transition: 1s;
+    overflow: hidden;
+    background: #363a3d;
+}
+
+.nav3:hover .drop3-content {
+    height: fit-content;
+}
+
+.drop3-content a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    margin-left: 30px;
+    margin-top: -8px;
+}
+
+.drop3content a:hover {
+    background: #45494b;
+    height: 14px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.line2 {
+    height: 1.5px;
+    background: rgb(44, 42, 42);
+    border: none;
+    transform: rotate(90deg);
+    position: relative; right: 100px; top: 40px;
+}
+
+/*Support Tickets Dropdown*/
+.nav4 {
+    position: relative;
+    display: inline-block;
+}
+
+.drop4-content {
+    position: sticky;
+    width: 235px;
+    height: 0px;
+    transition: 1s;
+    overflow: hidden;
+    background: #363a3d;
+}
+
+.nav4:hover .drop4-content {
+    height: fit-content;
+}
+
+.drop4-content a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    margin-left: 30px;
+    margin-top: -8px;
+}
+
+.drop4content a:hover {
+    background: #45494b;
+    height: 14px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.line3 {
+    height: 1.5px;
+    background: rgb(44, 42, 42);
+    border: none;
+    transform: rotate(90deg);
+    position: relative; right: 100px; top: 40px;
+}
+
+
+img {
+    width: 70px;
+    margin-left: px;
+}
+
+.school {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+    text-align: center;
+    position: relative; top: 15px; right: 10px;
+}
+
+.uot {
+    font-size: 11.2px;
+}
+
+.img2 img {
+    width: 45px;
+    border-radius: 100px;
+    border-style: solid;
+    border-color: white;
+    display: grid;
+    position: absolute; right: 0; top: 3px;
+    margin-right: 20px;
+}
+
+
+/* lautech-email */
